@@ -184,14 +184,66 @@
 
 .para-iphone{
     display: flex;
-    text-align: center;
-}
-
-.para-iphone p{
-    display: flex;
     justify-content: center;
 }
 
+.para-iphone li{
+    list-style: none;
+    font-size: 15px;
+    color: #3d3d3d;
+    display: inline-block;
+    margin-right: 40px;
+    position: relative;
+}
+
+.para-iphone li ::after {
+    position: absolute;
+    right: -25px;
+    top: 0;
+    content: "|";
+}
+
+.iphone{
+    background: #f3f2ee;
+    padding-top: 125px;
+    padding-bottom: 190px;
+    position: relative;
+}
+
+.iphone img{
+    position: absolute;
+    border-radius: 5px;
+    top: 340px;
+    left: 50px;
+}
+
+.details{
+    /* border: 2px solid black; */
+    margin-top: 580px;
+    display: flex;
+}
+
+.detail{
+    border: 2px solid black;
+    /* text-align: center; */
+    padding: 10px 250px;
+    position: relative;
+}
+
+.detail p{
+    font-size: 18px;
+    line-height: 34px;
+    font-family: "Nunito Sans", sans-serif;
+    color: #3d3d3d;
+    font-weight: 400;
+    margin: 0 0 15px 0;
+}
+
+.share{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
 
 
 
