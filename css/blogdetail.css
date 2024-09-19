@@ -290,6 +290,8 @@
 .author{
     display: flex;
     margin: 0px 250px;
+    margin-top: 30px;
+    gap: 380px;
     flex-wrap: wrap;
     border-top: 1px solid #e5e5e5;
     padding-top: 15px;
@@ -321,9 +323,80 @@
     color: #111111;
     font-weight: 700;
     margin-right: 10px;
+    text-decoration: none;
 }
 
+.free-block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px 250px;
+}
 
+.block-left{
+    display: block;
+    border: 1px solid #ebebeb;
+    padding: 25px 30px 30px;
+    margin-bottom: 30px;
+    width: 360px;
+}
+
+.block-left p{
+    color: #b7b7b7;
+    margin-bottom: 10px;
+
+    font-size: 15px;
+    font-family: "Nunito Sans", sans-serif;
+    /* color: #3d3d3d; */
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0 0 15px 0;
+
+}
+
+.block-left h5{
+    color: #111111;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.block-left span {
+    margin-right: 10px;
+}
+
+.block-right{
+    text-align: right;
+    display: block;
+    border: 1px solid #ebebeb;
+    padding: 25px 30px 30px;
+    margin-bottom: 30px;
+    width: 360px;
+}
+
+.block-right p{
+    color: #b7b7b7;
+    margin-bottom: 10px;
+
+    font-size: 15px;
+    font-family: "Nunito Sans", sans-serif;
+    /* color: #3d3d3d; */
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0 0 15px 0;
+
+}
+
+.block-right h5{
+    color: #111111;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight:700;
+}
+
+.block-right span{
+    margin-left: 10px;
+}
 
 .the-end{
     background-color: #111111;
