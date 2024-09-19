@@ -289,6 +289,7 @@
 
 .author{
     display: flex;
+    margin: 0px 250px;
     flex-wrap: wrap;
     border-top: 1px solid #e5e5e5;
     padding-top: 15px;
@@ -309,12 +310,14 @@
 
 .author-left h5{
     color: #111111;
+    margin-top: 10px;
     font-weight: 700;
     font-size: 18px;
 }
 
 .author-right a{
     display: inline-block;
+    margin-top: 10px;
     color: #111111;
     font-weight: 700;
     margin-right: 10px;
