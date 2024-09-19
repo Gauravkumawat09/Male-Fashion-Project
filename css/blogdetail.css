@@ -398,6 +398,90 @@
     margin-left: 10px;
 }
 
+
+.blog-comment {
+    margin: 0px 250px;
+    margin-top: 40px;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+
+
+.blog-comment h4{
+    color: #333333;
+    font-weight: 700;
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.blog-comment form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blog-comment input {
+    height: 50px;
+    width: 30%;
+    border: 1px solid #e1e1e1;
+    padding-left: 20px;
+    font-size: 15px;
+    color: #b7b7b7;
+    margin-bottom: 30px;
+    transition: all, 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .the-end{
     background-color: #111111;
     display: flex;
