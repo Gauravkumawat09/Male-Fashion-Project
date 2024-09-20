@@ -432,6 +432,10 @@
     font-size: 18px;
 }
 
+.card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, .card-8{
+    position: relative;
+}
+
 .card-1 p {
     position: absolute;
     padding: 3px 12px;
@@ -491,7 +495,7 @@
 }
 .card-1 .checkbox {
     position: absolute;
-    left: 200px;
+    left: 190px;
     top: 330px;
     display: none;
 }
@@ -520,21 +524,21 @@
 
 .card-2 .checkbox {
     position: absolute;
-    left: 490px;
+    left: 190px;
     top: 330px;
     display: none;
 }
 
 .card-3 .checkbox {
     position: absolute;
-    left: 790px;
+    left: 190px;
     top: 330px;
     display: none;
 }
 
 .card-4 .checkbox {
     position: absolute;
-    left: 1080px;
+    left: 190px;
     top: 330px;
     display: none;
 }
@@ -610,28 +614,28 @@
 
 .card-5 .checkbox {
     position: absolute;
-    left: 200px;
+    left: 190px;
     top: 330px;
     display: none;
 }
 
 .card-6 .checkbox {
     position: absolute;
-    left: 490px;
+    left: 190px;
     top: 330px;
     display: none;
 }
 
 .card-7 .checkbox {
     position: absolute;
-    left: 790px;
+    left: 190px;
     top: 330px;
     display: none;
 }
 
 .card-8 .checkbox {
     position: absolute;
-    left: 1080px;
+    left: 190px;
     top: 330px;
     display: none;
 }
@@ -835,15 +839,14 @@ padding-right: 50px;
     margin-left: 60px;
 	
 	display: grid;
-    grid-template-rows: 200px 200px 200px;
     grid-template-columns: 220px 220px 220px;
 	
-	grid-gap: 30px;
+	/* grid-gap: 30px; */
     position: relative;
 
 }
 .insta {
-    /* margin-top: 200px; */
+    margin-top: 200px;
     margin-left: 100px;
 }
 .insta h2{
@@ -880,13 +883,14 @@ padding-right: 50px;
 
 .fashion {
     text-align: center;
-    margin-top: 0px ;
+    margin-top: 100px ;
     position: relative;
 }
 
 
 .img-news{
     display: grid;
+    margin-top: 50px;
     /* gap: 30px; */
     grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
 }
@@ -898,13 +902,6 @@ padding-right: 50px;
     line-height: 46px;
 }
 
-/* .img-news{
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    margin-top: 50px;
-} */
-
 .blog-img{
     position: relative;
 }
@@ -915,10 +912,10 @@ padding-right: 50px;
     text-align: left;
    padding: 40px;
    top: 230px;
-   left:20px;
+   left:50px;
    width: 320px;
 }
-
+ 
 .blog i {
     color: #3d3d3d;
     font-size: 13px;
@@ -1068,7 +1065,7 @@ padding-right: 50px;
 
 .card-1 .h-c-s {
     position: absolute;
-    left: 220px;
+    left: 200px;
     top: 20px;
     /* display: none; */
     transform: translateX(30px);
@@ -1103,7 +1100,7 @@ background-color: white;
 
 .card-2 .h-c-s {
     position: absolute;
-    left: 510px;
+    left: 200px;
     top: 20px;
     /* display: none; */
     transform: translateX(30px);
@@ -1118,7 +1115,7 @@ background-color: white;
 
 .card-3 .h-c-s {
     position: absolute;
-    left: 800px;
+    left: 200px;
     top: 20px;
     /* display: none; */
     transform: translateX(30px);
@@ -1133,7 +1130,7 @@ background-color: white;
 
 .card-4 .h-c-s {
     position: absolute;
-    left: 1090px;
+    left: 200px;
     top: 20px;
     /* display: none; */
     transform: translateX(30px);
@@ -1148,7 +1145,7 @@ background-color: white;
 
 .card-5 .h-c-s {
     position: absolute;
-    left: 220px;
+    left: 200px;
     top: 20px;
     /* display: none; */
     transform: translateX(30px);
@@ -1163,7 +1160,7 @@ background-color: white;
 
 .card-6 .h-c-s {
     position: absolute;
-    left: 510px;
+    left: 200px;
     top: 20px;
     /* display: none; */
     transform: translateX(30px);
@@ -1178,7 +1175,7 @@ background-color: white;
 
 .card-7 .h-c-s {
     position: absolute;
-    left: 800px;
+    left: 200px;
     top: 20px;
     /* display: none; */
     transform: translateX(30px);
@@ -1193,7 +1190,7 @@ background-color: white;
 
 .card-8 .h-c-s {
     position: absolute;
-    left: 1090px;
+    left: 200px;
     top: 20px;
     /* display: none; */
     transform: translateX(30px);

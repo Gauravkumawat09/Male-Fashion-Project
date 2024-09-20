@@ -630,6 +630,10 @@
     font-size: 18px;
 }
 
+.card-1, .card-2, .card-3, .card-4{
+  position: relative;
+}
+
 .card-1 p {
     position: absolute;
     padding: 3px 12px;
@@ -689,7 +693,7 @@
 }
 .card-1 .checkbox {
     position: absolute;
-    left: 200px;
+    left: 190px;
     top: 330px;
     display: none;
 }
@@ -718,21 +722,21 @@
 
 .card-2 .checkbox {
     position: absolute;
-    left: 490px;
+    left: 190px;
     top: 330px;
     display: none;
 }
 
 .card-3 .checkbox {
     position: absolute;
-    left: 790px;
+    left: 190px;
     top: 330px;
     display: none;
 }
 
 .card-4 .checkbox {
     position: absolute;
-    left: 1080px;
+    left: 190px;
     top: 330px;
     display: none;
 }
@@ -756,7 +760,7 @@
 
 .card-1 .h-c-s {
     position: absolute;
-    left: 220px;
+    left: 200px;
     top: 20px;
     /* display: none; */
     transform: translateX(30px);
@@ -791,7 +795,7 @@ background-color: white;
 
 .card-2 .h-c-s {
     position: absolute;
-    left: 510px;
+    left: 200px;
     top: 20px;
     /* display: none; */
     transform: translateX(30px);
@@ -851,7 +855,7 @@ background-color: white;
   justify-content: center;
   padding: 50px 0px;
 
-}
+} 
 
 .footer-1 {
   color: white;
