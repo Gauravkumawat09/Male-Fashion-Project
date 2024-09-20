@@ -810,7 +810,7 @@ background-color: white;
 
 .card-3 .h-c-s {
     position: absolute;
-    left: 800px;
+    left: 200px;
     top: 20px;
     /* display: none; */
     transform: translateX(30px);
