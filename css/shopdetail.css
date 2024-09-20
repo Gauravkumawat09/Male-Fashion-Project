@@ -601,11 +601,12 @@
 
 .card {
     position: relative;
-    /* height: 100vh; */
+    
 }
 
 .card-upper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin: 50px;
     position: relative;
