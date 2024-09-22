@@ -197,6 +197,14 @@
     background-position: center;
 }
 
+#hero-second{
+    background-image: url(/hero/hero-2.jpg);
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+    display: none;
+}
+
 .img-text {
     /* border: 2px solid black; */
     height: 400px;
@@ -1100,7 +1108,7 @@ background-color: white;
 
 .card-2 .h-c-s {
     position: absolute;
-    left: 200px;
+    left: 200px; 
     top: 20px;
     /* display: none; */
     transform: translateX(30px);
