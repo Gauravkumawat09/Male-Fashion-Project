@@ -2,5 +2,6 @@
 //     document.getElementById("hero-first").style.display = "none";
 // }
 
-//22 sep
+//22 sep askldflkadsf
 //21 sep reh gyaaa
+
