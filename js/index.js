@@ -1,7 +1,6 @@
-// document.getElementById("btn-shop-now").onclick = function() {
-//     document.getElementById("hero-first").style.display = "none";
-// }
+document.getElementById("left-arrow").onclick = function() {
+    document.getElementById("hero-first").style.display = "none";
+    document.getElementById("hero-second").style.display = "block";
+}
 
-//22 sep askldflkadsf
-//21 sep reh gyaaa
 
