@@ -3,6 +3,6 @@ document.getElementById("left-arrow").onclick = function() {
     document.getElementById("hero-second").style.display = "block";
 }
 
-//KEHFLKQAJ
+//KEHFLKQA
 
-//ASCILUAV
+// aksdjclk
