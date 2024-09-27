@@ -3,5 +3,4 @@ document.getElementById("left-arrow").onclick = function() {
     document.getElementById("hero-second").style.display = "block";
 }
 
-//iagdfi
-// kasljhlkv
+//KEHFLKQAJ
