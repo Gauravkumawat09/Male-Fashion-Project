@@ -247,6 +247,7 @@
 .the-end{
     background-color: #111111;
     display: flex;
+    flex-wrap: wrap;
     margin-top: 0px;
     gap: 120px;
     justify-content: center;

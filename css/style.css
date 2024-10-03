@@ -293,11 +293,6 @@
     position: relative;
 }
 
-.banner-1 img {
-    margin-top: 100px;
-    float: right;
-    margin-right: 160px;
-}
 
 .banner-1 h2 {
     position: absolute;
@@ -379,12 +374,17 @@
 
 .card-header {
     display: flex;
-    margin-top: 130px;
+    flex-wrap: wrap;
+    margin-top: 60px;
     justify-content: center;
 }
 
 .card-header ul {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px;
+    gap: 50px;
 }
 
 .card-header li {
@@ -395,7 +395,6 @@
     font-weight: 700;
     list-style: none;
     display: inline-block;
-    margin-right: 88px;
     cursor: pointer;
 }
 
@@ -406,16 +405,11 @@
 
 .card {
     position: relative;
-    /* height: 100vh; */
-    /* display: flex; */
 }
 
 .card-upper {
     display: flex;
     flex-wrap: wrap;
-    /* display: grid; */
-    /* border: 2px solid black; */
-    /* grid-template-columns: repeat(auto-fill, minmax(300px)); */
     justify-content: space-around;
     margin: 50px;
     position: relative;
@@ -664,13 +658,159 @@
     display: block;
 }
 
-@media (min-width: 425px) and (max-width:768px){
+@media (max-width:365px){
+    .banner-1 img{
+        position: static;
+       margin-top: 50px;
+       margin-left: 20px;
+       width: 250px;
+    }
+    .banner-1 h2{
+       position: static;
+       margin-top: 20px;
+       margin-left: 20px;
+       float: left;
+       line-height: 26px;
+       font-size: 20px;
+    }
+    .banner-1 a{
+        position: absolute;
+        top: 35px;
+        left: 25px;
+        float: left;
+
+    }
+
+    .banner-2 img {
+        width: 250px;
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+    
+    .banner-2 h2 {
+        margin-top: 20px;
+       margin-left: 20px;
+        font-weight: bolder;
+        line-height: 26px;
+       font-size: 20px;
+    }
+    
+    .banner-2 a {
+        margin-left: 20px;
+    }
+
+    .banner-3 img {
+        width: 250px;
+        position: static;
+        margin-top: 80px;
+        margin-left: 20px;
+    }
+    
+    .banner-3 h2 {
+        position: static;
+        margin-top: 20px;
+       margin-left: 20px;
+        font-weight: bolder;
+        line-height: 26px;
+       font-size: 20px;
+    }
+    
+    .banner-3 a {
+        position: static;
+        margin-left: 20px;
+    }
+
+    .category-2 img {
+        width: 250px;
+    }
+
+    .insta{
+        margin-left: 60px;
+    }
+
+    .blog-img img{
+        width: 250px;
+    }
+    .blog i img {
+        width: 12px;
+    }
+}
+
+@media (min-width:365px) and (max-width:462px){
+    .banner-1 img{
+        position: static;
+       margin-top: 50px;
+       margin-left: 60px;
+       width: 300px;
+    }
+    .banner-1 h2{
+       position: static;
+       margin-top: 30px;
+       margin-left: 60px;
+       float: left;
+    }
+    .banner-1 a{
+        position: absolute;
+        top: 130px;
+        left: 60px;
+        float: left;
+
+    }
+
+    .banner-2 img {
+        width: 300px;
+        margin-top: 100px;
+        margin-left: 60px;
+    }
+    
+    .banner-2 h2 {
+        margin-left: 60px;
+        margin-top: 20px;
+        font-weight: bolder;
+        line-height: 46px;
+        font-size: 36px;
+    }
+    
+    .banner-2 a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 4px;
+        border-bottom: 2px solid black;
+        margin-left: 60px;
+    }
+
+    .banner-3 img {
+        width: 300px;
+        position: static;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+    
+    .banner-3 h2 {
+        position: static;
+        margin-left: 60px;
+    }
+    
+    .banner-3 a {
+        position: static;
+        margin-left: 60px;
+    }
+
+    .insta{
+        margin-left: 60px;
+    }
+}
+
+@media (min-width: 462px) and (max-width:768px){
 
     .banner-1 img{
         position: static;
        margin-top: 50px;
        margin-left: 60px;
        float: left;
+       width: 400px;
     }
     .banner-1 h2{
        position: static;
@@ -711,6 +851,7 @@
     }
 
     .banner-3 img {
+        width: 400px;
         position: static;
         margin-top: 50px;
         margin-left: 60px;
@@ -723,6 +864,10 @@
     
     .banner-3 a {
         position: static;
+        margin-left: 60px;
+    }
+
+    .insta{
         margin-left: 60px;
     }
 }
@@ -779,12 +924,12 @@
     .banner-3 img {
         position: static;
         margin-top: 50px;
-        margin-left: 400px;
+        margin-left: 300px;
      }
      
      .banner-3 h2 {
          position: absolute;
-         left: 150px;
+         left: 100px;
          top: 1380px;
          text-align: left;
          font-weight: bolder;
@@ -795,7 +940,7 @@
      .banner-3 a {
          position: absolute;
          top: 1480px;
-         left: 150px;
+         left: 100px;
          text-decoration: none;
          color: #000000;
          font-size: 13px;
@@ -915,9 +1060,14 @@
     }
 }
 
-@media (min-width: 1100px) and (max-width: 1154px){
+@media (min-width: 1100px) and (max-width: 20054px){
+    .banner-1 img {
+        margin-top: 100px;
+        float: right;
+        margin-right: 160px;
+    }
     .insta{
-        padding-top: 200px;
+        /* padding-top: 200px; */
         padding-left: 20px;
     }
 }
@@ -1012,22 +1162,36 @@ margin-top: 30px;
 }
 
 .cd-item h1 {
-padding-right: 50px;
-
+    padding-right: 50px;
+    
 }
 
 
+.image-insta{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    /* border: 2px solid black; */
+}
 
 
-.image-grid-6 {
+.image-grid-3 {
 	margin-top: 100px;
     margin-left: 60px;
-	display: grid;
-    grid-template-columns: 220px 220px 220px;
+	display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: 220px 220px 220px; */
     position: relative;
-
-
+    /* border:  2px solid black; */
 }
+
+.image-grid-rem3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    /* border:  2px solid black; */
+}
+
 
 .insta h2{
     line-height: 130px;
@@ -1044,10 +1208,6 @@ padding-right: 50px;
     margin: 0 0 15px 0;
 }
 
-.image-insta{
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .fashion h5{
 
@@ -1069,10 +1229,13 @@ padding-right: 50px;
 
 
 .img-news{
-    display: grid;
+    justify-content: space-between;
+    display: flex;
+    margin: 50px 30px 0px 30px;
     margin-top: 50px;
     /* gap: 30px; */
-    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    flex-wrap: wrap;
+    position: relative;
 }
 
 .fashion h2{
@@ -1087,13 +1250,14 @@ padding-right: 50px;
 }
 
 .blog{
-    position: absolute;
+    position: relative;
     background-color: white;
     text-align: left;
    padding: 40px;
-   top: 230px;
-   left:50px;
+   /* margin-top: -40px; */
+   left:20px;
    width: 320px;
+   margin-bottom: 0px;
 }
  
 .blog i {
@@ -1133,7 +1297,8 @@ padding-right: 50px;
 .the-end{
     background-color: #111111;
     display: flex;
-    margin-top: 250px;
+    flex-wrap: wrap;
+    margin-top: 80px;
     gap: 120px;
     justify-content: center;
     padding: 50px 0px;
