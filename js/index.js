@@ -2,8 +2,5 @@
         document.getElementById("hero-first").style.display = "none";
         document.getElementById("hero-second").style.display = "block";
     }
-        
-    //asdflkjasklf
-//slkdjfglksdf
-
-//sdfkjvlksjfdv
+  
+    //sjdvkjslkvj
