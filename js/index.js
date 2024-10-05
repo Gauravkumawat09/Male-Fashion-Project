@@ -16,3 +16,5 @@ document.getElementById("mobile-page").onclick = function(){
     document.getElementById("page-arrow-id-2").style.display = "block";
     document.getElementById("page-arrow-id").style.display = "none"; 
 }
+
+//sdfkvhs
