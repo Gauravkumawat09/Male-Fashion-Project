@@ -195,6 +195,21 @@
 
 }
 
+.mobile-tab-overlay{
+    position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        content: "";
+        z-index: 98;
+        -webkit-transition: all, 0.5s;
+        -o-transition: all, 0.5s;
+        transition: all, 0.5s;
+        visibility: hidden;
+}
+
 
 
 
