@@ -191,29 +191,74 @@
     .icon i {
         padding: 0px 5px;
     }
+    
 
 }
+
+
+
 
 .mobile-tab{
+    position: fixed;
+    top: 0px;
+    left: -300px;
     width: 300px;
-    border: 2px solid black;
+    height: 100%;
+    display: none;
+    background-color: white;
+    z-index: 9999;
+    width: 300px;
+    padding: 50px 20px 30px 30px;
+    overflow-y: auto;
+    transform: translateX(300px);
+    transition: all 0.2s;
+    
 }
 
-/* .mobile-tab{
-    position: fixed;
-        left: -300px;
-        width: 300px;
-        height: 100%;
-        background: #ffffff;
-        padding: 50px 20px 30px 30px;
-        display: block;
-        z-index: 99;
-        overflow-y: auto;
-        -webkit-transition: all, 0.5s;
-        -o-transition: all, 0.5s;
-        transition: all, 0.5s;
-        opacity: 0;
-} */
+.page-dropdown{
+    position: relative;
+}
+
+.mobile-tab .dropdown-content {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0px;
+    position: static;
+    box-shadow: none;
+    display: none;
+
+    color: white;
+    z-index: 10;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: capitalize;
+    /* border: 2px solid black; */
+}
+
+#page-arrow-id-2{
+    display: none; 
+    margin: 0px; 
+    padding: 0px; 
+    line-height: none;
+    position: absolute;
+    top: 8px;
+    left: 70px;
+}
+
+#page-arrow-id{
+    margin-left: 10px; margin-top: 15px; padding: 0px; line-height: none;
+}
+.mobile-tab .dropdown-content p{
+    margin: 0px;
+    padding: 0px;
+    line-height: 30px;
+}
+
+.mobile-tab .dropdown-content a{
+    font-size: 13px;
+}
+
 
 .first-line-tab{
     text-align: center;
@@ -270,6 +315,8 @@
 }
 .tab-list li {
     list-style:  none;
+    line-height: 30px;
+    margin-left: 15px;
     
 }
 
@@ -278,7 +325,7 @@
     color: #3d3d3d;
     font-weight: 400;
     line-height: 25px;
-    margin: 0 0 15px 0;
+    margin: 20px 0 15px 15px;
 }
 
 

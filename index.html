@@ -20,7 +20,7 @@
  
 </head>
 
-<body>
+<body id="body" > 
     <div class="header">
         <p>Free shipping, 30-day return or refund guarantee.</p>
         <ul>
@@ -58,7 +58,7 @@
             <i class="fa-regular fa-heart"></i>
             <i class="fa-solid fa-bag-shopping"> &nbsp; $0.00</i>
         </div>
-        <div class="bar">
+        <div class="bar" id="bar-1">
             <i class="fa-solid fa-bars"></i>
             <style>
                 .bar i {
@@ -69,8 +69,8 @@
             </style>
         </div>
     </div>
-
-    <!-- <div class="mobile-tab">
+    <div class="mobile-tab-overlay"></div>
+    <div class="mobile-tab" id="show-mobile-tab" >
         <div class="first-line-tab">
             <ul>
                     <li><a>SIGN IN</a></li>
@@ -87,9 +87,12 @@
             <ul>
                 <li><a href="index.html" >Home</a></li>
                 <li><a href="shop.html">Shop</a></li>
-                <div class="page-dropdown">
-                <li><a href="#">Pages</a>
-                        <div class="dropdown-content">
+                <div class="page-dropdown" >
+                    <li><a href="#" id="mobile-page">Pages 
+                    <i class="fa-solid fa-caret-down" id="page-arrow-id-2"></i>
+                    <i class="fa-solid fa-caret-right" id="page-arrow-id"></i> </a>
+
+                        <div class="dropdown-content" id="mobile-page-button">
                             <p><a href="about.html">About Us</a></p>
                             <p><a href="shopdetail.html">Shop Details</a></p>
                             <p><a href="shoppingcart.html">Shopping Cart</a></p>
@@ -103,7 +106,7 @@
             </ul>
         </div>
         <p>Free shipping, 30-day return or refund guarantee.</p>
-    </div> -->
+    </div>
 
     <div class="hero" id="hero-first"  >
         <div class="main-hero">
