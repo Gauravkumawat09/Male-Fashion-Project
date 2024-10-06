@@ -17,12 +17,4 @@ document.getElementById("mobile-page").onclick = function(){
     document.getElementById("page-arrow-id").style.display = "none"; 
 }
 
-//sdfkvhs
-
-//akseflqka
-
-//alsn
-
-//fsdjc
-
-//asdcbajhdc
+//wcklqwcj
