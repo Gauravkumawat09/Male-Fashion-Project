@@ -352,9 +352,8 @@
 }
 
 .both-side{
-    display: grid;
-    /* border: 2px solid black; */
-    grid-template-columns: repeat(auto-fill, minmax(350px));
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -442,6 +441,8 @@
     background-color: #f6f6f6;
 }
 
+/* adsva */
+
 .showing span a {
     color: #111111;
     font-size: 15px;
@@ -451,8 +452,8 @@
 
 .grid-card {
     position: relative;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 3fr));
+    display: flex;
+    flex-wrap: wrap;
     margin: 40px 0px 0px 10px;
     /* border: 2px solid black; */
     padding: 20px;
@@ -490,6 +491,11 @@
     border-radius: 50%;
     line-height: 30px;
     text-align: center;
+}
+
+.first.side{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .the-end{
