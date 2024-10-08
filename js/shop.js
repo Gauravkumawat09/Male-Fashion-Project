@@ -53,8 +53,4 @@ document.getElementById("prize").onclick = function(){
       document.getElementById("sixth-category").style.display = "block";
   }
 
-  //fyufiyt
-
-  //uguifui
-
-  //jhgukgiuy
+  //hguygiyfy
