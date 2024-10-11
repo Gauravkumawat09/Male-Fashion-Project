@@ -56,4 +56,4 @@ document.getElementById("prize").onclick = function(){
 
   //aakevkq
   //zdfsr
-  
+  //sbsrtb
