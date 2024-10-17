@@ -57,3 +57,5 @@ document.getElementById("prize").onclick = function(){
   //klkllk
 
   //;';';;'
+
+  //l;l;l;l;
