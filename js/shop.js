@@ -53,9 +53,6 @@ document.getElementById("prize").onclick = function(){
       document.getElementById("sixth-category").style.display = "block";
   }
 
-  //jkjkj
-  //klkllk
+  
 
-  //;';';;'
-
-  //l;l;l;l;
+  //aaaaaa
