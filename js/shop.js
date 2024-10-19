@@ -60,3 +60,5 @@ document.getElementById("prize").onclick = function(){
   //kkkkkk
 //..,
   //rrrrrr
+
+  //uuuuu
